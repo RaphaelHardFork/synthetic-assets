@@ -1,19 +1,4 @@
-# HardHat Project Template
+# Synthetic Assets
 
-Dependency installed:
-
-- openzeppelin
-- docgen
-- dotenv
-- prettier & eslint
-
-File template:
-
-- Contract.sol (smart contract intro)
-- Contract-test.js (tests syntax initiated)
-- Deployment Scripts
-- Post deployment scripts
-
-To do:
-
-- create a .env file with confidencial informations
+Déployer sur plusieurs réseaux mais à la même adresse : utiliser une nouvelle adresse pour le déploiement. En effet le nonce ne sera pas encore incrémenter sur les testnet.  
+Ou bien on peut utiliser create2 mais cela demande plus de technique pour l'utiliser.
